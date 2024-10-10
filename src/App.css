@@ -52,6 +52,7 @@ main {
   align-items: center;
   justify-content: center;
   text-align: center;
+  padding: 3em;
 }
 
 
@@ -69,15 +70,6 @@ main {
   font-size: 2vw;
 }
 
-.photo {
-  margin: 0 auto;
-  border-top: 1px double var(--color3);
-  width: 70%;
-}
-
-.photo img {
-  width: 12em;
-}
 
 .abilities {
   margin: 0 auto;
@@ -99,6 +91,7 @@ main {
   margin: 0 auto;
   width: 90%;
   justify-content: space-around;
+  padding: 3em;
 }
 
 .abilities li {
@@ -278,7 +271,7 @@ main {
   }
 
   .photo img {
-
+    margin: 0 auto;
     width: 100%;
   }
 

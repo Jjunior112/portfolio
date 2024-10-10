@@ -10,18 +10,13 @@ const Profile = () => {
 
                     <h2>Frontend Developer</h2>
 
-                    <p>Tenho 24 anos, sou Frontend developer, tenho uma paixão pela criação de soluções digitais inovadoras e funcionais. Tenho habilidades em JavaScript,React JS, Node JS, criação e integração de APIs usando express js, bancos de dados relacionais e não relacionais. </p>
+                    <p>Sou Frontend developer, com formação em andamento em Engenharia de Software. Tenho uma paixão pela criação de soluções digitais inovadoras e funcionais. Tenho habilidades em JavaScript,React JS, Node JS, criação e integração de APIs usando express js, bancos de dados relacionais e não relacionais. Proeficiência em criação de layouts dinâmicos, responsivos e com acessibilidade visando uma aplicação ampla e robusta. </p>
 
                     <a>Contact me</a>
                 </div>
 
             </section>
 
-            <section className='photo'>
-                <img src="profile.png" alt="foto de perfil" />
-
-
-            </section >
 
         </main>
     )
