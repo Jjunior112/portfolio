@@ -2,18 +2,24 @@ import Project from "./Project"
 
 const Projects = () => {
     const projectsList = [{
-        name: "Projetos Landing Pages",
-        image: "profile.png",
-        description: "API de Cardápio, uma aplicação Node.js que utiliza o MongoDB como banco de dados para gerenciar pratos e tipos de pratos em um cardápio. Esta API oferece endpoints simples para adicionar, remover e alterar informações sobre os pratos, bem como adicionar novos tipos de pratos.",
-        linkGithub: "https://github.com/Jjunior112",
-        linkSite: "https://react-icons.github.io/react-icons/search/#q=earth"
+        name: "Landing Page de advocacia",
+        image: "advocacy.png",
+        description: "Este projeto é um modelo de site de advocacia que foi projetado para oferecer uma experiência clara e objetiva, facilitando o acesso às informações essenciais sobre o escritório e seus serviços. Com um layout moderno e de fácil navegação, ele reflete o profissionalismo e a seriedade com que a equipe jurídica atua.",
+        linkGithub: "https://github.com/Jjunior112/advocacy",
+        linkSite: "https://advocacytest.netlify.app/"
     },
     {
-        name: "Projetos usando API",
-        image: "profile.png",
-        description: "API de Cardápio, uma aplicação Node.js que utiliza o MongoDB como banco de dados para gerenciar pratos e tipos de pratos em um cardápio. Esta API oferece endpoints simples para adicionar, remover e alterar informações sobre os pratos, bem como adicionar novos tipos de pratos.",
-        linkGithub: "https://github.com/Jjunior112",
-        linkSite: "https://react-icons.github.io/react-icons/search/#q=earth"
+        name: "Pesquisador de usuários",
+        image: "githubSearch.png",
+        description: "Este projeto é um pesquisador de usuários do Github que faz integração com API da plataforma que retorna infomações de usuários como nome, descrição do perfil, quantidade de repositórios, entre outras ",
+        linkGithub: "https://github.com/Jjunior112/Pesquisador_de_usuarios",
+        linkSite: "https://cheerful-haupia-5e1339.netlify.app/"
+    }, {
+        name: "Stay Update",
+        image: "stayUpdate.png",
+        description: "Este projeto faz parte de um desafio do site Frontend Mentor que consiste em uma página de assinatura de newsletter que verifica as informações inseridas e retorna uma mensagem de sucesso caso esteja tudo de acordo.",
+        linkGithub: "https://github.com/Jjunior112/newsletter",
+        linkSite: "https://superb-palmier-ba87aa.netlify.app/"
     }]
 
 

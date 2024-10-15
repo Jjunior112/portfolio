@@ -180,7 +180,7 @@ main {
 
 .project img {
   margin: 0 auto;
-  width: 15em;
+  width: 18em;
   height: 8em;
 }
 
@@ -193,6 +193,7 @@ main {
   color: #000000;
   padding: .5em;
   overflow: scroll;
+  text-align: justify;
 }
 
 .project svg {
