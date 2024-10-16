@@ -26,10 +26,9 @@ const Projects = () => {
     return (
         <section className="projects">
 
-            <div className="projectsTitle">
-                <h2>Projetos</h2>
-                <a href="http://wa.me/5531982208900" target="_blank" rel="noopener noreferrer">Contact me</a>
-            </div>
+
+            <h2>Projetos</h2>
+
             <div className="listProjects">
                 {
                     projectsList.map((project) => (

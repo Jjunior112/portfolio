@@ -8,12 +8,12 @@ const Home = () => {
 
 
     return (
-        <>
+        <main>
             <Profile />
             <Abilities />
-            <Projects/>
+            <Projects />
 
-        </>
+        </main>
     )
 }
 
