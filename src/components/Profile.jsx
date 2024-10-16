@@ -12,7 +12,7 @@ const Profile = () => {
 
                     <p>Sou Frontend developer, com formação em andamento em Engenharia de Software. Tenho uma paixão pela criação de soluções digitais inovadoras e funcionais. Tenho habilidades em JavaScript,React JS, Node JS, criação e integração de APIs usando express js, bancos de dados relacionais e não relacionais. Proeficiência em criação de layouts dinâmicos, responsivos e com acessibilidade visando uma aplicação ampla e robusta. </p>
 
-                    <a>Contact me</a>
+                    <a href="http://wa.me/5531982208900" target="_blank" rel="noopener noreferrer">Contact me</a>
                 </div>
 
             </section>

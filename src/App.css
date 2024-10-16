@@ -136,6 +136,7 @@ main {
 .projectsTitle a,
 .name a {
   font-size: 1vw;
+  text-decoration: none;
   color: var(--color3);
   padding: .2em;
   background-color: var(--color5);

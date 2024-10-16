@@ -28,7 +28,7 @@ const Projects = () => {
 
             <div className="projectsTitle">
                 <h2>Projetos</h2>
-                <a>Contact me</a>
+                <a href="http://wa.me/5531982208900" target="_blank" rel="noopener noreferrer">Contact me</a>
             </div>
             <div className="listProjects">
                 {
