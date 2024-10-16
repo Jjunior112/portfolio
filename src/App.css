@@ -57,7 +57,7 @@ main {
   align-items: center;
   justify-content: center;
   text-align: center;
-  padding: 3em;
+  padding: 2em;
 }
 
 
@@ -71,22 +71,18 @@ main {
   color: #fff;
 }
 
-.name h2 {
-  font-size: 2vw;
-}
-
-
 
 .abilities {
   margin: 0 auto;
   width: 70%;
+ 
   display: flex;
   flex-direction: column;
   color: #fff;
   border-top: 4px double var(--color5);
 }
 
-.abilities h2,.projects h2 {
+.abilities h2,.projects h2,.name h2 {
   font-size: 2em;
   text-align: center;
 
@@ -97,7 +93,8 @@ main {
   margin: 0 auto;
   width: 90%;
   justify-content: space-around;
-  padding: 3em;
+  padding: 1em;
+  gap: 2em;
 }
 
 .abilities li {
@@ -107,7 +104,7 @@ main {
   border-top: none;
   width: 15em;
   list-style-type: none;
-  margin: 1em;
+ 
 }
 
 .abilities svg {
@@ -127,16 +124,6 @@ main {
 }
 
 
-
-.name a {
-  font-size: 1em;
-  text-decoration: none;
-  color: var(--color3);
-  padding: .2em;
-  background-color: var(--color5);
-  border-radius: .5em;
-
-}
 
 .listProjects {
   display: grid;
@@ -247,49 +234,30 @@ main {
     margin-bottom: 2em;
   }
 
-
 }
-
 
 @media (width<900px) {
 
-
-  .name h2{
-    font-size: 4vw;
+  .name p{
+    text-align: justify;
+    width: 100%;
+   
   }
 
-  .name button {
-    left: 35%;
-    margin-bottom: 2em;
-  }
-
-  .abilities {
+  .abilities,.name,.projects {
     width: 90%;
   }
 
-  .abilities h2 {
-    text-indent: 1.5em;
-  }
+  
 
   .abilities ul {
-    flex-direction: column;
-  }
-
-  .abilities li {
     margin: 0 auto;
-    margin-bottom: 2em;
+    flex-direction: column;
+    width: 80%;
   }
-
-  .projectsTitle {
-    gap: 15em;
-  }
-
-  .projectsTitle h2 {
-    font-size: 3vw;
-  }
-
-  .projectsTitle a {
-    font-size: 2vw;
+  .abilities li{
+    width: 100%;
+    
   }
 
 }
@@ -299,23 +267,57 @@ main {
     font-size: 1.5em;
   }
   .name,.abilities,.projects{
-    margin: 0 auto;
     padding: 0;
     width: 80%;
     text-align: center;
   }
-  .name h2{
-    font-size: 2em;
-    text-align: center;
-  }
-  .name p{
-    text-align: justify;
-    width: 100%;
-   
-  }
+  
+ 
   .name a{
     margin-top: .5em;
     font-size: 1em;
     word-break: keep-all;
   }
+}
+
+@media (width<531px) {
+  .name h2{
+    font-size: 1.5em;
+    text-wrap: nowrap;
+  }
+
+  }
+@media (width<400px) {
+  nav {
+    align-items: center;
+    justify-content: space-around;
+  }
+  nav h1{
+    font-size: 1em;
+  }
+  main{
+    overflow-x: hidden;
+  }
+  .name {
+    width: 100%;
+    
+  }
+  .project{
+    width: 85%;
+  }
+  .project img {
+    width: 15em;
+  }
+  .abilities  {
+    width: 85%;
+    padding: 0;
+  }
+
+ 
+  .abilities li  {
+
+    padding: 0;
+    width: 100%;
+  }
+ 
 }
