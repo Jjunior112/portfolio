@@ -15,8 +15,13 @@ nav {
 
 nav h1 {
   font-size: 2em;
+  font-family: 'Courier New', Courier, monospace;
   color: #fff;
 }
+nav span{
+  color: var(--color4);
+}
+
 
 nav ul {
   display: flex;
