@@ -1,26 +1,24 @@
 import Project from "./Project"
 
 const Projects = () => {
-    const projectsList = [{
-        name: "Landing Page de advocacia",
-        image: "advocacy.png",
-        description: "Este projeto é um modelo de site de advocacia que foi projetado para oferecer uma experiência clara e objetiva, facilitando o acesso às informações essenciais sobre o escritório e seus serviços. Com um layout moderno e de fácil navegação, ele reflete o profissionalismo e a seriedade com que a equipe jurídica atua.",
-        linkGithub: "https://github.com/Jjunior112/advocacy",
-        linkSite: "https://advocacytest.netlify.app/"
-    },
-    {
-        name: "Pesquisador de usuários",
-        image: "githubSearch.png",
-        description: "Este projeto é um pesquisador de usuários do Github que faz integração com API da plataforma que retorna infomações de usuários como nome, descrição do perfil, quantidade de repositórios, entre outras ",
-        linkGithub: "https://github.com/Jjunior112/Pesquisador_de_usuarios",
-        linkSite: "https://cheerful-haupia-5e1339.netlify.app/"
-    }, {
-        name: "Stay Update",
-        image: "stayUpdate.png",
-        description: "Este projeto faz parte de um desafio do site Frontend Mentor que consiste em uma página de assinatura de newsletter que verifica as informações inseridas e retorna uma mensagem de sucesso caso esteja tudo de acordo.",
-        linkGithub: "https://github.com/Jjunior112/newsletter",
-        linkSite: "https://superb-palmier-ba87aa.netlify.app/"
-    }]
+    const projectsList = [
+        {
+            name: "Gerenciador de tarefas",
+            image: "lista-tarefas.webp",
+            description: "Este projeto é um CRUD de Gerenciamento de tarefas desenvolvido usando AspNet core, ligado a um banco de dados Sqlite acessado via entity framework com consultas LINQ que possui funcionalidades básicas como criar, editar, marcar como concluída, alterar prioridade e excluir a tarefa.",
+            linkGithub: "https://github.com/Jjunior112/api-crud-to-do-list"
+        }, {
+            name: "Newsletter Subscription API",
+            image: "newsletter.png",
+            description: "Este sistema, desenvolvido em C# utilizando ASP.NET Core, processa solicitações contendo dados de nome e e-mail para cadastro em uma lista de newsletter. Durante o processamento, o e-mail é validado para garantir que atende aos requisitos estabelecidos e que não está previamente registrado. Caso aprovado, o e-mail é armazenado em um banco de dados, que será utilizado para o envio periódico da newsletter.",
+            linkGithub: "https://github.com/Jjunior112/signNewsletter"
+        },
+        {
+            name: "Sistema bancário",
+            image: "bank.jpg",
+            description: "Este sistema desenvolvido em C# usando AspNet core, possui funcionalidade de criação de conta com encriptação de senha e  transações de depósito,consulta de saldo, saque e encerramento da conta. O projeto atualmente está em desenvolvimento e contará com autenticação JWT para garantir a segurança da aplicação.",
+            linkGithub: "https://github.com/Jjunior112/BankAccount"
+        }]
 
 
     return (
@@ -32,7 +30,7 @@ const Projects = () => {
             <div className="listProjects">
                 {
                     projectsList.map((project) => (
-                        <Project name={project.name} image={project.image} description={project.description} linkGithub={project.linkGithub} linkSite={project.linkSite} />
+                        <Project name={project.name} image={project.image} description={project.description} linkGithub={project.linkGithub} />
                     ))
                 }
             </div>

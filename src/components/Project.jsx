@@ -1,7 +1,7 @@
 import { FaGithub } from 'react-icons/fa'
 import { RiEarthFill } from "react-icons/ri";
 
-const Project = ({ name, image, description,linkGithub,linkSite }) => {
+const Project = ({ name, image, description,linkGithub }) => {
 
     return (
         <div className='project' >
@@ -17,7 +17,7 @@ const Project = ({ name, image, description,linkGithub,linkSite }) => {
             </div>
             <div >
                 <a href={linkGithub} target="_blank" rel="noopener noreferrer"><FaGithub className='github' /></a>
-                <a href={linkSite} target="_blank" rel="noopener noreferrer"><RiEarthFill className='site' /></a>
+                
             </div>
 
         </div>

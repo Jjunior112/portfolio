@@ -3,7 +3,7 @@ import { FaLinkedin, FaGithub, FaWhatsapp  } from 'react-icons/fa'
 const NavBar = () => {
     return (
         <nav>
-            <h1><span>&lt;</span>Juarez Junior <span>/&gt;</span></h1>
+            <h1><span>= </span>Juarez Junior<span>;</span></h1>
             <ul>
 
                 <li><a href="https://www.linkedin.com/in/juarez-gonzaga-de-castro-jnr" target="_blank" title='Link para perfil do Linkedin' rel="noopener noreferrer"><FaLinkedin className='linkedin' /></a></li>

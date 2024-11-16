@@ -66,7 +66,7 @@ main {
   align-items: center;
   text-align: justify;
   width: 50%;
-  padding-top: 1em;
+  padding: 4em;
   font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
   color: #fff;
 }
@@ -75,11 +75,14 @@ main {
 .abilities {
   margin: 0 auto;
   width: 70%;
- 
+  padding: 2em;
   display: flex;
   flex-direction: column;
   color: #fff;
   border-top: 4px double var(--color5);
+ 
+
+
 }
 
 .abilities h2,.projects h2,.name h2 {
@@ -102,7 +105,8 @@ main {
   border: 2px solid var(--color5);
   border-radius: .5em;
   border-top: none;
-  width: 15em;
+  width: 18em;
+  padding: 1em;
   list-style-type: none;
  
 }
@@ -111,6 +115,10 @@ main {
   color: var(--color5);
   padding: .5em;
   font-size: 2.5em;
+}
+.abilities p {
+  
+  text-align: justify;
 }
 
 .projects {
