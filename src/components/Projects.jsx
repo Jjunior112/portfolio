@@ -5,8 +5,8 @@ const Projects = () => {
         {
             name: "Gerenciador de tarefas",
             image: "lista-tarefas.webp",
-            description: "Este projeto é um CRUD de Gerenciamento de tarefas desenvolvido usando AspNet core, ligado a um banco de dados Sqlite acessado via entity framework com consultas LINQ que possui funcionalidades básicas como criar, editar, marcar como concluída, alterar prioridade e excluir a tarefa.",
-            linkGithub: "https://github.com/Jjunior112/api-crud-to-do-list"
+            description: "Este projeto é um CRUD de Gerenciamento de tarefas desenvolvido usando AspNet MVC, ligado a um banco de dados Sqlite acessado via entity framework com consultas LINQ. Na tela inicial o usuário precisa registar ou logar no sistema e conta com funcionalidades básicas como criar, editar, marcar como concluída, alterar prioridade e excluir a tarefa que só podem ser acessadas pelo usuário autenticado. ",
+            linkGithub: "https://github.com/Jjunior112/to-do-auth"
         }, {
             name: "Newsletter Subscription API",
             image: "newsletter.png",
