@@ -1,12 +1,13 @@
-import { FaGithub } from 'react-icons/fa'
-import { RiEarthFill } from "react-icons/ri";
+import { FaGithub,FaImage  } from 'react-icons/fa'
 
-const Project = ({ name, image, description,linkGithub }) => {
+
+const Project = ({ name, image, description,linkGithub/*linkImage*/ }) => {
 
     return (
         <div className='project' >
 
             <h2>{name}</h2>
+            
 
             <img src={image} alt="" />
 
@@ -17,6 +18,7 @@ const Project = ({ name, image, description,linkGithub }) => {
             </div>
             <div >
                 <a href={linkGithub} target="_blank" rel="noopener noreferrer"><FaGithub className='github' /></a>
+                {/* <a href={linkImage} target="_blank" rel="noopener noreferrer"><FaImage  className='github' /></a> */}
                 
             </div>
 
