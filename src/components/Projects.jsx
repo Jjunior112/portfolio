@@ -11,8 +11,8 @@ const Projects = () => {
         }, {
             name: "Newsletter Subscription API",
             image: "newsletter.png",
-            description: "Este sistema, desenvolvido em C# utilizando ASP.NET Core, processa solicitações contendo dados de nome e e-mail para cadastro em uma lista de newsletter. Durante o processamento, o e-mail é validado para garantir que atende aos requisitos estabelecidos e que não está previamente registrado. Caso aprovado, o e-mail é armazenado em um banco de dados, que será utilizado para o envio periódico da newsletter.",
-            linkGithub: "https://github.com/Jjunior112/signNewsletter",
+            description: "Este sistema, desenvolvido em C# utilizando MVC, processa solicitações contendo dados de nome e e-mail para cadastro em uma lista de newsletter. Durante o processamento, o e-mail é validado para garantir que atende aos requisitos estabelecidos e que não está previamente registrado. Caso aprovado, o e-mail é armazenado em um banco de dados, que será utilizado para o envio periódico da newsletter. Há views para todos os cenários de sucessos e erros possíveis",
+            linkGithub: "https://github.com/Jjunior112/SignNewsLetterMVC",
             // linkImage: ""
         },
         // {

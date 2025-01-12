@@ -8,7 +8,6 @@ const Project = ({ name, image, description,linkGithub/*linkImage*/ }) => {
 
             <h2>{name}</h2>
             
-
             <img src={image} alt="" />
 
             <div className='description' >
