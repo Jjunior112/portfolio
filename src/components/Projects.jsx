@@ -10,61 +10,25 @@ const Projects = () => {
       linkGithub: "https://github.com/Jjunior112/LibraryManager",
       // linkImage: ""
     },
-
+    
     {
-      name: "Newsletter Subscription API",
-      image: "newsletter.png",
+      name: "Sistema de pedidos",
+      image: "orderSystem.webp",
       description:
-        "Este sistema, desenvolvido em C# utilizando MVC, processa solicitações contendo dados de nome e e-mail para cadastro em uma lista de newsletter. Durante o processamento, o e-mail é validado para garantir que atende aos requisitos estabelecidos e que não está previamente registrado. Caso aprovado, o e-mail é armazenado em um banco de dados, que será utilizado para o envio periódico da newsletter. Há views para todos os cenários de sucessos e erros possíveis",
-      linkGithub: "https://github.com/Jjunior112/SignNewsLetterMVC",
+        "Este projeto é uma API REST para um sistema de pedidos, desenvolvida com ASP.NET Core e SQL Server, utilizando o Entity Framework Core para acesso a dados e autenticação via JWT para segurança.A aplicação está conteinerizada com Docker e segue uma arquitetura baseada em Repository Pattern e Unit of Work, garantindo uma estrutura modular, escalável e de fácil manutenção.",
+      linkGithub: "https://github.com/Jjunior112/OrderSystem",
       // linkImage: ""
     },
 
     {
       name: "Gerenciador de inventário",
-      image: "product.png",
+      image: "inventoryManager.webp",
       description:
-        "Esta API desenvolvida em C# usando ASP.NET core é um funcionalidades CRUD de criação de produtos, pesquisa geral e por ID,  alteração de informações e exclusão de produtos. ",
-      linkGithub: "https://github.com/Jjunior112/inventoryManager",
+        "Sistema de inventário distribuído em microsserviços, implementado em .NET com API Gateway via Ocelot e orquestração de contêineres com Docker Compose.",
+      linkGithub: "https://github.com/Jjunior112/inventorySystemMicroservice",
       linkImage: "",
-    },
+    }
 
-    {
-      name: "Api de login de usuário",
-      image: "login-api.webp",
-      description:
-        "Este projeto é uma API REST de login de usuário em ASP.NET Core com Entity Framework e autenticação JWT. Consumida por um app React.js, permite cadastrar usuário e realizar login. Ao realizar login, é exibido na tela as informações de cadastro do usuário.",
-      linkGithub: "https://github.com/Jjunior112/login-dotnet-reactjs",
-      // linkImage: ""
-    },
-    // {
-    //     name: "API de pedidos de restaurante",
-    //     image: "bank.jpg",
-    //     description: "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quisquam, earum commodi. Sapiente a vel eius deleniti rerum minus tenetur? Quaerat accusantium eligendi libero maiores porro, enim veritatis nemo facilis! Aut minus velit laborum iste odio ratione incidunt fugiat vitae soluta amet? Doloribus obcaecati aperiam alias totam aliquid voluptatem, nam sequi!",
-    //     linkGithub: "",
-    //     linkImage: ""
-    // },
-    // {
-    //     name: "Sistema de notas fiscais",
-    //     image: "bank.jpg",
-    //     description: "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quisquam, earum commodi. Sapiente a vel eius deleniti rerum minus tenetur? Quaerat accusantium eligendi libero maiores porro, enim veritatis nemo facilis! Aut minus velit laborum iste odio ratione incidunt fugiat vitae soluta amet? Doloribus obcaecati aperiam alias totam aliquid voluptatem, nam sequi!",
-    //     linkGithub: "",
-    //     linkImage: ""
-    // },
-    // {
-    //     name: "Chat em tempo real",
-    //     image: "bank.jpg",
-    //     description: "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quisquam, earum commodi. Sapiente a vel eius deleniti rerum minus tenetur? Quaerat accusantium eligendi libero maiores porro, enim veritatis nemo facilis! Aut minus velit laborum iste odio ratione incidunt fugiat vitae soluta amet? Doloribus obcaecati aperiam alias totam aliquid voluptatem, nam sequi!",
-    //     linkGithub: "",
-    //     linkImage: ""
-    // },
-    // {
-    //     name: "Vaquinha Online",
-    //     image: "bank.jpg",
-    //     description: "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quisquam, earum commodi. Sapiente a vel eius deleniti rerum minus tenetur? Quaerat accusantium eligendi libero maiores porro, enim veritatis nemo facilis! Aut minus velit laborum iste odio ratione incidunt fugiat vitae soluta amet? Doloribus obcaecati aperiam alias totam aliquid voluptatem, nam sequi!",
-    //     linkGithub: "",
-    //     linkImage: ""
-    // }
   ];
 
   return (
