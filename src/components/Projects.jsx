@@ -12,11 +12,11 @@ const Projects = () => {
     },
     
     {
-      name: "Sistema de pedidos",
-      image: "orderSystem.webp",
+      name: "Sistema de gerenciamento de tarefas",
+      image: "lista-tarefas.webp",
       description:
-        "Este projeto é uma API REST para um sistema de pedidos, desenvolvida com ASP.NET Core e SQL Server, utilizando o Entity Framework Core para acesso a dados e autenticação via JWT para segurança.A aplicação está conteinerizada com Docker e segue uma arquitetura baseada em Repository Pattern e Unit of Work, garantindo uma estrutura modular, escalável e de fácil manutenção.",
-      linkGithub: "https://github.com/Jjunior112/OrderSystem",
+        "Este projeto é uma API REST para um sistema de tarefas, desenvolvida com ASP.NET Core e SQL Server, utilizando o Entity Framework Core para acesso a dados. A aplicação está conteinerizada com Docker e segue uma arquitetura baseada em Repository Pattern e Unit of Work, garantindo uma estrutura modular, escalável e de fácil manutenção.",
+      linkGithub: "https://github.com/Jjunior112/TaskSystem",
       // linkImage: ""
     },
 
