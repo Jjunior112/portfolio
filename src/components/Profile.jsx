@@ -11,7 +11,9 @@ const Profile = () => {
                     <h2>Backend Developer</h2>
 
                     <p>
-                        Sou Desenvolvedor Backend, atualmente cursando Engenharia de Software. Apaixonado pela criação de soluções digitais inovadoras e funcionais, possuo experiência em JavaScript, .NET, ASP.NET. Tenho expertise na criação e integração de APIs com Express.js, utilização de bancos de dados relacionais e não relacionais, além de habilidades em Entity Framework e autenticação com JWT. Valorizo práticas de código limpo e manutenção eficiente, sempre focando na escalabilidade e longevidade do software.</p>
+                     Sou Desenvolvedor Backend, atualmente cursando Engenharia de Software. Apaixonado pela criação de soluções digitais inovadoras e funcionais, tenho experiência com C#, .NET, ASP.NET Core, Java e Spring Boot. Atuo na construção e integração de APIs RESTful, utilizando boas práticas com Express.js, Entity Framework e JPA/Hibernate. Possuo domínio em bancos de dados relacionais e não relacionais, autenticação com JWT, versionamento com Git e conteinerização com Docker. Valorizo código limpo, arquitetura escalável e foco na manutenção eficiente de sistemas robustos e duradouros.
+
+</p>
 
 
                 </div>

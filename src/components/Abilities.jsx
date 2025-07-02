@@ -1,6 +1,7 @@
-import { SiDotnet, SiRabbitmq, SiDocker } from "react-icons/si";
+import { SiDotnet, SiDocker } from "react-icons/si";
+import { FaCloudArrowUp } from "react-icons/fa6";
 import { DiMsqlServer, DiDotnet } from "react-icons/di";
-import { TbBrandCSharp } from "react-icons/tb";
+import { BiLogoSpringBoot,BiLogoPostgresql } from "react-icons/bi";
 const Abilities = () => {
   return (
     <section className="abilities">
@@ -8,12 +9,9 @@ const Abilities = () => {
       <ul>
         {" "}
         <li>
-          <TbBrandCSharp />{" "}
+          <BiLogoSpringBoot />{" "}
           <p>
-            C# é uma linguagem de programação moderna, orientada a objetos,
-            criada pela Microsoft. Versátil e robusta, é amplamente utilizada
-            para desenvolvimento web, desktop, jogos, APIs e aplicativos
-            empresariais.{" "}
+            Spring Boot é um framework Java que facilita o desenvolvimento de aplicações web e microsserviços, com configuração simplificada, suporte a APIs REST, segurança, bancos de dados e integração com serviços em nuvem.{" "}
           </p>{" "}
         </li>{" "}
         <li>
@@ -37,11 +35,9 @@ const Abilities = () => {
       <ul>
         {" "}
         <li>
-          <DiDotnet />{" "}
+          <BiLogoPostgresql />{" "}
           <p>
-            Entity Framework é um ORM da Microsoft para .NET que facilita o
-            mapeamento de objetos para bancos de dados relacionais, permitindo
-            consultas e manipulação de dados usando C# em vez de SQL.{" "}
+           PostgreSQL é um sistema de gerenciamento de banco de dados relacional, open source, robusto e extensível. Suporta transações ACID, JSON, procedures, e é amplamente utilizado em aplicações web e corporativas.{" "}
           </p>{" "}
         </li>{" "}
         <li>
@@ -54,12 +50,9 @@ const Abilities = () => {
           </p>{" "}
         </li>{" "}
         <li>
-          <SiRabbitmq />{" "}
+          <FaCloudArrowUp />{" "}
           <p>
-            RabbitMQ é um broker de mensagens que permite a comunicação
-            assíncrona entre sistemas distribuídos, organizando o envio,
-            recebimento e roteamento de mensagens entre produtores e
-            consumidores de forma confiável.{" "}
+            Serviços em nuvem permitem hospedar e escalar aplicações com alta disponibilidade. Plataformas como AWS e Azure oferecem soluções para computação, armazenamento, banco de dados, segurança e inteligência artificial.{" "}
           </p>{" "}
         </li>{" "}
       </ul>{" "}

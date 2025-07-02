@@ -229,7 +229,7 @@ main {
   padding-bottom: 5em;
 }
 
-@media (width<1500px) {
+@media (width<1300px) {
   .listProjects {
     margin: 0 auto;
     display: flex;
