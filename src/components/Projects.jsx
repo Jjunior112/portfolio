@@ -4,7 +4,7 @@ const Projects = () => {
   const projectsList = [
      {
       name: "Gerenciador de inventário",
-      image: "qr_image.png",
+      image: "inventoryManager.webp",
       description:
         "Sistema de inventário distribuído em microsserviços, implementado em .NET com API Gateway via Ocelot e orquestração de contêineres com Docker Compose.",
       linkGithub: "https://github.com/Jjunior112/inventorySystemMicroservice",
@@ -13,7 +13,7 @@ const Projects = () => {
     
     {
       name: "Gerador de QrCode AWS",
-      image: "lista-tarefas.webp",
+      image: "qr_image.png",
       description:
         "Este projeto é uma aplicação desenvolvida em Java 21 que gera códigos QR personalizados a partir de entradas fornecidas pelo usuário e os armazena automaticamente em um bucket da AWS S3. Ideal para aplicações que precisam gerar e armazenar QR codes de forma segura, escalável e automatizada.",
         linkGithub: "https://github.com/Jjunior112/qr-code-gen",
