@@ -21,11 +21,11 @@ const Projects = () => {
       },
       
       {
-        name: "Sistema de Biblioteca",
-        image: "library.png",
+        name: "Api de envio de e-mails AWS",
+        image: "email.png",
         description:
-          "Este sistema, desenvolvido em C# utilizando ASP.NET Core, gerencia uma biblioteca permitindo a criação de contas e login de usuários. Usuários autenticados podem reservar e devolver livros diretamente pela plataforma, com registros automáticos vinculados ao responsável. Apenas administradores têm acesso às funcionalidades de criação, edição e exclusão de livros no catálogo, garantindo controle sobre o acervo. A interface, construída com Bootstrap, oferece uma experiência responsiva e intuitiva, acessível em diferentes dispositivos.",
-        linkGithub: "https://github.com/Jjunior112/LibraryManager",
+          "Este projeto é uma API REST para envio de email usando o Simple Email Service (SES) da Aws.",
+        linkGithub: "https://github.com/Jjunior112/emailSender-Aws",
         // linkImage: ""
       }
    
