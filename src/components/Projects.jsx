@@ -24,10 +24,18 @@ const Projects = () => {
         name: "Api de envio de e-mails AWS",
         image: "email.png",
         description:
-          "Este projeto é uma API REST para envio de email usando o Simple Email Service (SES) da Aws.",
+          "Este projeto é uma aplicação Java que realiza o envio de e-mails com base em entradas fornecidas pelo usuário, utilizando o AWS SES (Simple Email Service) para garantir o envio automatizado, seguro e escalável.",
         linkGithub: "https://github.com/Jjunior112/emailSender-Aws",
         // linkImage: ""
-      }
+      },
+      {
+      name: "Sistema de clínica médica",
+      image: "agenda.png",
+      description:
+        "Este projeto é uma aplicação desenvolvida em Java 21 durante o curso de Spring Boot da Alura. O sistema realiza o cadastro de médicos e pacientes, permitindo também o agendamento de consultas. Foram aplicadas boas práticas como arquitetura em camadas, validações e persistência de dados com JPA usando MySql como banco de dados.",
+      linkGithub: "https://github.com/Jjunior112/vollmed-api",
+      linkImage: "",
+    },
    
 
   ];
