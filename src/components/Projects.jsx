@@ -2,15 +2,7 @@ import Project from "./Project";
 
 const Projects = () => {
   const projectsList = [
-     {
-      name: "Gerenciador de inventário",
-      image: "inventoryManager.webp",
-      description:
-        "Sistema de inventário distribuído em microsserviços, implementado em .NET com API Gateway via Ocelot e orquestração de contêineres com Docker Compose.",
-      linkGithub: "https://github.com/Jjunior112/inventorySystemMicroservice",
-      linkImage: "",
-    },
-    
+  
     {
       name: "Gerador de QrCode AWS",
       image: "qr_image.png",
@@ -19,7 +11,6 @@ const Projects = () => {
         linkGithub: "https://github.com/Jjunior112/qr-code-gen",
         // linkImage: ""
       },
-      
       {
         name: "Api de envio de e-mails AWS",
         image: "email.png",
@@ -29,11 +20,11 @@ const Projects = () => {
         // linkImage: ""
       },
       {
-      name: "Sistema de clínica médica",
-      image: "agenda.png",
+      name: "Encurtador de URLs",
+      image: "url.png",
       description:
-        "Este projeto é uma aplicação desenvolvida em Java 21 durante o curso de Spring Boot da Alura. O sistema realiza o cadastro de médicos e pacientes, permitindo também o agendamento de consultas. Foram aplicadas boas práticas como arquitetura em camadas, validações e persistência de dados com JPA usando MySql como banco de dados.",
-      linkGithub: "https://github.com/Jjunior112/vollmed-api",
+        "Projeto de encurtador de URLs desenvolvido em Java 21 usando banco de dados Mongo Db e orquestração de containers via Docker Compose",
+      linkGithub: "https://github.com/Jjunior112/encurtador-url",
       linkImage: "",
     },
    

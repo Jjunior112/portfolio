@@ -1,7 +1,7 @@
-import { SiDotnet, SiDocker } from "react-icons/si";
+import { SiDotnet, SiDocker, SiNodedotjs } from "react-icons/si";
 import { FaCloudArrowUp } from "react-icons/fa6";
-import { DiMsqlServer, DiDotnet } from "react-icons/di";
-import { BiLogoSpringBoot,BiLogoPostgresql } from "react-icons/bi";
+import { DiDotnet, DiMongodb } from "react-icons/di";
+import { BiLogoSpringBoot, BiLogoPostgresql } from "react-icons/bi";
 const Abilities = () => {
   return (
     <section className="abilities">
@@ -15,20 +15,23 @@ const Abilities = () => {
           </p>{" "}
         </li>{" "}
         <li>
-          <SiDotnet />{" "}
+          <SiNodedotjs />{" "}
           <p>
-            .NET é uma plataforma de desenvolvimento da Microsoft,
-            multiplataforma e versátil. Permite criar aplicativos web, desktop,
-            móveis, jogos e APIs, suportando diversas linguagens como C#, F# e
-            VB.NET.{" "}
+            Node.js é um ambiente de execução JavaScript,
+            multiplataforma e eficiente. Permite criar aplicativos web, desktop,
+            móveis, APIs e sistemas em tempo real, utilizando JavaScript tanto no
+            frontend quanto no backend, com vasto ecossistema de bibliotecas e
+            suporte da comunidade.{" "}
           </p>{" "}
         </li>{" "}
         <li>
-          <DiMsqlServer />{" "}
+          <DiMongodb />{" "}
           <p>
-            SQL Server é um banco de dados relacional da Microsoft, ideal para
-            aplicações empresariais. Oferece desempenho, segurança, suporte a
-            transações, e funciona em ambientes locais, híbridos e em nuvem.{" "}
+            MongoDB é um banco de dados NoSQL,
+            multiplataforma e escalável. Permite armazenar dados em formato
+            JSON-like (BSON), suportando consultas flexíveis, replicação,
+            sharding e alto desempenho, sendo amplamente utilizado em
+            aplicações modernas e distribuídas.{" "}
           </p>{" "}
         </li>{" "}
       </ul>{" "}
@@ -37,7 +40,7 @@ const Abilities = () => {
         <li>
           <BiLogoPostgresql />{" "}
           <p>
-           PostgreSQL é um sistema de gerenciamento de banco de dados relacional, open source, robusto e extensível. Suporta transações ACID, JSON, procedures, e é amplamente utilizado em aplicações web e corporativas.{" "}
+            PostgreSQL é um sistema de gerenciamento de banco de dados relacional, open source, robusto e extensível. Suporta transações ACID, JSON, procedures, e é amplamente utilizado em aplicações web e corporativas.{" "}
           </p>{" "}
         </li>{" "}
         <li>
